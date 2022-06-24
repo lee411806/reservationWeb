@@ -1,6 +1,6 @@
 
 /* 회원가입 처리 */
-function signup() {
+function join() {
     console.log("[signup] func signup()");
 
     console.log("회원가입 처리");
