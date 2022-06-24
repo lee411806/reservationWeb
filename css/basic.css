@@ -1,0 +1,23 @@
+* {
+
+}
+
+.container {
+    width: 800px;
+    height: 800px;
+
+    margin: 100px auto 100px auto;
+
+    align-content: center;
+}
+
+
+.row {
+    margin: 25px;
+}
+
+.div-input-label {
+
+}
+
+
