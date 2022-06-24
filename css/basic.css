@@ -3,21 +3,15 @@
 }
 
 .container {
-    width: 800px;
-    height: 800px;
-
-    margin: 100px auto 100px auto;
-
-    align-content: center;
+    margin-top: 100px;
 }
-
 
 .row {
     margin: 25px;
 }
 
-.div-input-label {
-
+.div-page-title {
+    margin-bottom: 50px;
 }
 
 
