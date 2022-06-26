@@ -2,8 +2,25 @@
     font-family: 'Do Hyeon', sans-serif;
 }
 
-.container {
-    margin-top: 100px;
+body {
+    background-image: url("../images/lotter-on-background.jpeg");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.div-container {
+    width: 1000px;
+    margin: 100px auto 100px auto;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.btn-primary {
+    background: #EF2A23 !important;
+    border-color: #EF2A23 !important;
 }
 
 .row {
@@ -11,7 +28,7 @@
 }
 
 .div-page-title {
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 }
 
 .easy-login-icon {
@@ -19,7 +36,21 @@
     height: 50px;
 }
 
-div {
+.div-login-label {
     text-align: center;
 }
 
+.easy-login-btn {
+    border: none;
+    background: none;
+}
+
+.easy-login-btn:focus, :hover {
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.div-member {
+    color: gray;
+}
