@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!doctype html>
 <html lang="ko">
 <head>
@@ -6,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- Bootstrap required tag -->
 
     <!-- Custom -->
-    <link rel="stylesheet" type="text/css" href="./css/basic.css">
+    <link rel="stylesheet" type="text/css" href="./basic.css">
 
     <!-- Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -72,7 +74,7 @@
                 <button type="button" class="btn btn-primary btn-block">로그인</button>
             </div>
             <div class="col-2">
-                <button type="button" class="btn btn-primary btn-block" onclick="location.href='join.html'">회원가입</button>
+                <button type="button" class="btn btn-primary btn-block" onclick="location.href='join.jsp'">회원가입</button>
             </div>
         </div>
 
